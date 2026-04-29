@@ -1,4 +1,5 @@
 services:
-  app:
+  flask:
     build: .
-
+    ports:
+      - "7777:7777"
